@@ -1,0 +1,54 @@
+:root {
+    --color-sidebar: #f8f9fa; /* Gris Perle (très clair) */
+    --color-accent: #007bff;  /* Bleu Primaire (vif) */
+    --font-family-primary: 'Arial', sans-serif; 
+}
+
+body {
+    background-color: #ffffff; 
+    font-family: var(--font-family-primary);
+}
+
+.cv-page {
+    max-width: 1000px; 
+    border-radius: 8px;
+    overflow: hidden; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.sidebar {
+    background-color: var(--color-sidebar);
+    color: #212529 !important;
+}
+
+.sidebar h1, .sidebar h2 {
+    color: #343a40;
+}
+
+.sidebar hr {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.profile-pic-img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border: 3px solid var(--color-accent);
+}
+
+
+.main-content {
+    background-color: #ffffff;
+}
+
+.border-accent {
+    border-color: var(--color-accent) !important;
+}
+
+.text-accent {
+    color: var(--color-accent) !important;
+}
+
+.experience-item ul, .project-item ul {
+    padding-left: 1.5rem; 
+}
