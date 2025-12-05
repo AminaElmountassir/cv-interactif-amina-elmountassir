@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function () {
       })
     })
 
-    console.log("CV Interactif chargé. Interactivité JS des onglets OK. ✅");
+    console.log("CV Interactif chargé. Interactivité JS des onglets OK. ");
     
 
 });

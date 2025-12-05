@@ -1,6 +1,6 @@
 :root {
-    --color-sidebar: #f8f9fa; /* Gris Perle (très clair) */
-    --color-accent: #007bff;  /* Bleu Primaire (vif) */
+    --color-sidebar: #f8f9fa;
+    --color-accent: #007bff;  
     --font-family-primary: 'Arial', sans-serif; 
 }
 
